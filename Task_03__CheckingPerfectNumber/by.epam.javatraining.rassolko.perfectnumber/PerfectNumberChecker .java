@@ -16,7 +16,6 @@ public class PerfectNumberChecker
         printToConsole("Please, enter natural number: ");
         a = readIntFromConsole();
 
-        
         if(!checkUserInput(a))
         {
             printlnToConsole("Sorry, wrong input :(");
