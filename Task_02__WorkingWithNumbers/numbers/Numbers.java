@@ -50,9 +50,7 @@ public class Numbers
     public static int[] calcNaturalNumberFactors(int number)
     {
 
-        
         java.util.ArrayList<Integer> collection = new java.util.ArrayList<>();
-        
         
         int divisor = 2;
         int currentNumber = number;
@@ -67,7 +65,6 @@ public class Numbers
             currentNumber = currentNumber / divisor;
         }
           
-        
         int[] responce = new int[collection.size()];
         for(int i = 0; i < collection.size(); i++)
         {
@@ -116,6 +113,5 @@ public class Numbers
         }
         
         return responce;
-        
     }
 }
